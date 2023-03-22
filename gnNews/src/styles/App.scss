@@ -9,7 +9,12 @@ body {
 }
 
 h1,
-p {
+p,
+a {
   font-family: 'Roboto', sans-serif;
   color: #fff;
+}
+
+a {
+  text-decoration: none;
 }

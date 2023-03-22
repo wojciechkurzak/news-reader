@@ -1,0 +1,64 @@
+.navigation-list-item {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+
+  a {
+    display: flex;
+    padding: 14px 10px;
+    gap: 10px;
+    width: 100%;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: #0d0e11;
+    }
+
+    &:hover img,
+    &:hover p {
+      transform: translateX(4px);
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      background-color: orange;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.2s;
+    }
+
+    &:hover::before {
+      transform: scaleX(1);
+    }
+  }
+
+  .active {
+    background-color: #0d0e11;
+    transition: none;
+  }
+
+  .active::before {
+    transform: scaleX(1);
+    transition: none;
+  }
+
+  .active img,
+  .active p {
+    transform: translateX(4px);
+  }
+
+  img {
+    width: 20px;
+    transition: transform 0.2s;
+  }
+
+  p {
+    transition: transform 0.2s;
+  }
+}
