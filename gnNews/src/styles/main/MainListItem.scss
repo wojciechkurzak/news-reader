@@ -21,11 +21,7 @@
     display: none;
   }
 
-  & > div:nth-of-type(1) {
-    width: 25%;
-  }
-
-  & > div:nth-of-type(1) {
+  .article-description {
     width: 50%;
   }
 
@@ -35,6 +31,34 @@
 }
 
 .grid-view {
-  width: 20%;
-  height: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  width: calc(100% / 3 - 1em);
+  gap: 20px;
+
+  .teaser {
+    img {
+      width: 100%;
+      border-radius: 4px;
+      aspect-ratio: 16/9;
+    }
+  }
+
+  .article-description {
+    width: 100%;
+  }
+
+  .article-source {
+    width: calc((100% - 20px) / 2);
+  }
+
+  .article-date {
+    width: calc((100% - 20px) / 2);
+  }
+
+  p {
+    margin-top: 12px;
+  }
 }

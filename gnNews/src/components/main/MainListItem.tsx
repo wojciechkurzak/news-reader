@@ -27,8 +27,10 @@ const MainListItem = ({ article }: MainListItemProps) => {
         }
         onClick={handleOpen}
       >
-        <div className='teaser'></div>
-        <div className='article-author'>
+        <div className='teaser'>
+          <img src={article.urlToImage} alt='teaser' />
+        </div>
+        <div className='article-description'>
           <h2>Title</h2>
           <p>{article.description}</p>
         </div>
