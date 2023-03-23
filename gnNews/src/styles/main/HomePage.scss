@@ -1,6 +1,8 @@
 .home-page {
+  min-height: calc(100vh - 120px);
   width: calc(100vw - 240px);
   margin-top: 60px;
+  margin-left: 240px;
 }
 
 @media screen and (max-width: 768px) {
