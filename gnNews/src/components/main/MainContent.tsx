@@ -6,9 +6,9 @@ import { changeArticleCount } from '../../redux/features/article-count-slice'
 import { ArticleCountStateType } from '../../types/store-types'
 import { useLocation } from 'react-router-dom'
 import { ArticleType } from '../../types/main-types'
-import '../../styles/main/HomePage.scss'
+import '../../styles/main/MainContent.scss'
 
-const HomePage = () => {
+const MainContent = () => {
   const [articles, setArticles] = useState<ArticleType[]>([])
 
   const location = useLocation()
@@ -47,4 +47,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
+export default MainContent
