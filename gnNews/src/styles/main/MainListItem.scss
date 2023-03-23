@@ -38,11 +38,30 @@
   width: calc(100% / 3 - 1em);
   gap: 20px;
 
-  .teaser {
+  .article-image {
+    width: 100%;
+    aspect-ratio: 16/9;
+
     img {
       width: 100%;
       border-radius: 4px;
       aspect-ratio: 16/9;
+    }
+
+    .teaser {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid #20232a;
+      border-radius: 4px;
+      width: 100%;
+      aspect-ratio: 16/9;
+
+      svg {
+        color: #20232a;
+        width: 40px;
+        height: 40px;
+      }
     }
   }
 

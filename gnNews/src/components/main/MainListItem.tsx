@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import { MainListItemProps } from '../../types/main-types'
 import { useAppSelector } from '../../redux/hooks'
-import '../../styles/main/MainListItem.scss'
+import { MdOutlineHideImage } from 'react-icons/md'
 import MainModal from './MainModal'
+import '../../styles/main/MainListItem.scss'
 
 const MainListItem = ({ article }: MainListItemProps) => {
   const [open, setOpen] = useState<boolean>(false)
@@ -27,8 +28,14 @@ const MainListItem = ({ article }: MainListItemProps) => {
         }
         onClick={handleOpen}
       >
-        <div className='teaser'>
-          <img src={article.urlToImage} alt='teaser' />
+        <div className='article-image'>
+          {article.urlToImage ? (
+            <img src={article.urlToImage} alt='article image' />
+          ) : (
+            <div className='teaser'>
+              <MdOutlineHideImage />
+            </div>
+          )}
         </div>
         <div className='article-title'>
           <h2>Title</h2>
