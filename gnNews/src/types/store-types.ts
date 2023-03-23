@@ -1,1 +1,1 @@
-export type ArticleStateType = 'list' | 'tiles'
+export type ArticleStateType = 'list' | 'grid'

@@ -46,8 +46,8 @@ const Header = () => {
           />
           <HeaderButton
             icon={<HiSquares2X2 />}
-            active={articleView === 'tiles' ? 'active' : undefined}
-            onClick={() => handleArticleViewChange('tiles')}
+            active={articleView === 'grid' ? 'active' : undefined}
+            onClick={() => handleArticleViewChange('grid')}
           />
           <HeaderButton icon={<BsQuestionLg />} onClick={handleOpen} />
         </div>
