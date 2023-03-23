@@ -8,10 +8,14 @@ const HeaderModal = ({ open, onClose }: HeaderModalProps) => {
       <div className='header-modal'>
         <p>About project</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-          magnam minima sunt corrupti? Dolores eligendi quis nihil, libero
-          corporis quibusdam iusto eveniet dicta unde aliquid labore earum id, a
-          tempora?
+          Największą trudnością w tym projekcie było prawdopodobnie znalezienie
+          odpowiedniego endpointa w News API, żeby w zwracanym JSON-nie były
+          wszystkie informacje, a nie tylko częściowo, co widać gdy przejdzie
+          się na zakładki państw ;)
+        </p>
+        <p>
+          Największą frajdę sprawiło mi tworzenie samego UI, które wciągnęło
+          mnie bradziej niż myślałem
         </p>
       </div>
     </Modal>
