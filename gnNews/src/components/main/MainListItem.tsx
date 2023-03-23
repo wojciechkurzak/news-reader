@@ -32,7 +32,7 @@ const MainListItem = ({ article }: MainListItemProps) => {
         </div>
         <div className='article-title'>
           <h2>Title</h2>
-          <p>{article.description}</p>
+          <p>{article.title}</p>
         </div>
         <div className='article-source'>
           <h2>Source</h2>
@@ -46,7 +46,7 @@ const MainListItem = ({ article }: MainListItemProps) => {
       <MainModal
         open={open}
         onClose={handleClose}
-        content={article.content}
+        description={article.description}
         author={article.author}
         sourceUrl={article.url}
       />

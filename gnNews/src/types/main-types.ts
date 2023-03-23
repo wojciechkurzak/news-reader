@@ -23,7 +23,7 @@ export type MainListItemProps = {
 export type MainModalProps = {
   open: boolean
   onClose: () => void
-  content: string
+  description: string
   author: string
   sourceUrl: string
 }

@@ -5,7 +5,7 @@ import '../../styles/main/MainModal.scss'
 const MainModal = ({
   open,
   onClose,
-  content,
+  description,
   author,
   sourceUrl,
 }: MainModalProps) => {
@@ -14,7 +14,7 @@ const MainModal = ({
       <div className='main-modal'>
         <div className='article-description'>
           <p>Description</p>
-          <p>{content}</p>
+          <p>{description}</p>
         </div>
         <div className='article-author'>
           <p>Author</p>

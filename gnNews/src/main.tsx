@@ -16,7 +16,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/country/:country',
-        element: null,
+        element: <HomePage />,
       },
     ],
   },

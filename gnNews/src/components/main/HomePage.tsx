@@ -1,35 +1,48 @@
-import React, { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import credentials from '../../credentials.json'
-import articles from '../../data/articles.json'
 import MainList from './MainList'
-import '../../styles/main/HomePage.scss'
 import { useAppDispatch } from '../../redux/hooks'
 import { changeArticleCount } from '../../redux/features/article-count-slice'
 import { ArticleCountStateType } from '../../types/store-types'
+import { useLocation } from 'react-router-dom'
+import { ArticleType } from '../../types/main-types'
+import '../../styles/main/HomePage.scss'
 
 const HomePage = () => {
+  const [articles, setArticles] = useState<ArticleType[]>([])
+
+  const location = useLocation()
+
   const dispatch = useAppDispatch()
 
   const handleArticleCountChange = (value: ArticleCountStateType): void => {
     dispatch(changeArticleCount(value))
   }
 
-  // const handleGetArticles = async () => {
-  //   const response = await fetch(
-  //     `https://newsapi.org/v2/top-headlines?country=us&apiKey=${credentials.key}`
-  //   )
-  //   const data = await response.json()
-  //   console.log(data)
-  // }
-  //
+  const handleGetArticles = async () => {
+    const querry =
+      location.pathname !== '/'
+        ? `top-headlines?country=${location.pathname.slice(9, 11)}`
+        : 'everything?domains=wsj.com'
+
+    const response = await fetch(
+      `https://newsapi.org/v2/${querry}&apiKey=${credentials.key}`
+    )
+    const data = await response.json()
+
+    if (!data) return
+
+    setArticles(data.articles)
+    handleArticleCountChange(data.articles.length)
+  }
+
   useEffect(() => {
-    // getArticles()
-    handleArticleCountChange(articles.length)
-  })
+    handleGetArticles()
+  }, [location])
 
   return (
     <div className='home-page'>
-      <MainList articles={articles} />
+      {articles && <MainList articles={articles} />}
     </div>
   )
 }
