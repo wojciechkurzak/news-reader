@@ -20,3 +20,23 @@ footer {
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  footer {
+    height: 50px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-height: 480px) and (orientation: landscape) {
+  footer {
+    height: 50px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
