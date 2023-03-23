@@ -14,7 +14,7 @@ const MainModal = ({
       <div className='main-modal'>
         <div className='article-description'>
           <p>Description</p>
-          <p>{description}</p>
+          <p>{description ? description : 'No description'}</p>
         </div>
         <div className='article-author'>
           <p>Author</p>
