@@ -3,8 +3,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 60%;
-  min-height: 100px;
+  max-height: 600px;
+  width: calc(100% - 4em);
+  max-width: 700px;
   background-color: #20232a;
   border-radius: 8px;
   padding: 20px 16px;
@@ -15,5 +16,19 @@
 
   p:nth-of-type(2) {
     margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-modal {
+    width: calc(100% - 2em);
+    max-height: 450px;
+  }
+}
+
+@media screen and (max-height: 480px) and (orientation: landscape) {
+  .header-modal {
+    width: calc(100% - 2em);
+    max-height: 300px;
   }
 }

@@ -30,7 +30,7 @@ const MainListItem = ({ article }: MainListItemProps) => {
         <div className='teaser'>
           <img src={article.urlToImage} alt='teaser' />
         </div>
-        <div className='article-description'>
+        <div className='article-title'>
           <h2>Title</h2>
           <p>{article.description}</p>
         </div>
