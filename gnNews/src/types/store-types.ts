@@ -1,1 +1,3 @@
-export type ArticleStateType = 'list' | 'grid'
+export type ArticleViewStateType = 'list' | 'grid'
+
+export type ArticleCountStateType = number

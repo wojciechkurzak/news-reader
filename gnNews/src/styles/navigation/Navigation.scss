@@ -1,9 +1,9 @@
 nav {
   height: calc(100vh - 60px);
-  width: 240px;
+  min-width: 240px;
   background-color: #191b20;
-  box-shadow: 0 0 6px 0 #000;
-  position: fixed;
+  box-shadow: 0 -4px 6px 0 #000;
+  position: sticky;
   top: 60px;
   z-index: 1;
 }

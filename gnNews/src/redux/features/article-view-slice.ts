@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import ArticleViewState from '../../interfaces/article-view-interface'
-import { ArticleStateType } from '../../types/store-types'
+import { ArticleViewStateType } from '../../types/store-types'
 
 const initialState: ArticleViewState = {
   type: 'list',
@@ -10,7 +10,7 @@ const articleViewSlice = createSlice({
   name: 'artcile-view',
   initialState,
   reducers: {
-    changeArticleView(state, action: PayloadAction<ArticleStateType>) {
+    changeArticleView(state, action: PayloadAction<ArticleViewStateType>) {
       state.type = action.payload
     },
   },

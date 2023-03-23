@@ -2,6 +2,7 @@ import Header from './components/header/Header'
 import Navigation from './components/navigation/Navigation'
 import { Outlet } from 'react-router-dom'
 import './styles/App.scss'
+import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Navigation />
         <Outlet />
       </div>
+      <Footer />
     </div>
   )
 }

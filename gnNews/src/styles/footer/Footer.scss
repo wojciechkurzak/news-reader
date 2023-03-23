@@ -1,0 +1,20 @@
+footer {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #20232a;
+  box-shadow: 0 0 4px 0 #000;
+
+  p {
+    font-size: 20px;
+
+    span {
+      border: 2px solid orange;
+      padding: 2px 4px;
+      text-align: center;
+      border-radius: 4px;
+    }
+  }
+}

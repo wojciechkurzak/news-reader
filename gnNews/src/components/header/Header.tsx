@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useAppDispatch, useAppSelector } from '../../redux/hooks'
 import { changeArticleView } from '../../redux/features/article-view-slice'
-import { ArticleStateType } from '../../types/store-types'
+import { ArticleViewStateType } from '../../types/store-types'
 import { FaListUl } from 'react-icons/fa'
 import { HiSquares2X2 } from 'react-icons/hi2'
 import { BsQuestionLg } from 'react-icons/bs'
@@ -30,7 +30,7 @@ const Header = () => {
     setOpen(false)
   }
 
-  const handleArticleViewChange = (type: ArticleStateType): void => {
+  const handleArticleViewChange = (type: ArticleViewStateType): void => {
     dispatch(changeArticleView(type))
   }
 
