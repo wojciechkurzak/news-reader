@@ -9,6 +9,7 @@ body {
 }
 
 h1,
+h2,
 p,
 a {
   font-family: 'Roboto', sans-serif;
@@ -17,4 +18,8 @@ a {
 
 a {
   text-decoration: none;
+}
+
+.content-container {
+  display: flex;
 }

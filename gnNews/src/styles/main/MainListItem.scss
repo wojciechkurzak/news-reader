@@ -1,0 +1,40 @@
+.main-list-item {
+  background-color: #191b20;
+  border-radius: 8px;
+  box-shadow: 0 0 4px 0 #000;
+  transition: box-shadow 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 0 6px 0 orange;
+  }
+}
+
+.list-view {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  gap: 30px;
+
+  .teaser {
+    display: none;
+  }
+
+  & > div:nth-of-type(1) {
+    width: 25%;
+  }
+
+  & > div:nth-of-type(1) {
+    width: 50%;
+  }
+
+  p {
+    margin-top: 12px;
+  }
+}
+
+.grid-view {
+  width: 20%;
+  height: 140px;
+}

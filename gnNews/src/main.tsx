@@ -3,6 +3,7 @@ import App from './App'
 import { Provider } from 'react-redux'
 import { store } from './redux/store'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import HomePage from './components/main/HomePage'
 
 const router = createBrowserRouter([
   {
@@ -11,7 +12,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: null,
+        element: <HomePage />,
       },
       {
         path: '/country/:country',
