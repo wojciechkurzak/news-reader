@@ -8,7 +8,7 @@ import { BsQuestionLg } from 'react-icons/bs'
 import { useNavigate } from 'react-router-dom'
 import HeaderButton from './HeaderButton'
 import HeaderModal from './HeaderModal'
-import '../../styles/Header/Header.scss'
+import '../../styles/header/Header.scss'
 
 const Header = () => {
   const [open, setOpen] = useState<boolean>(false)
