@@ -1,6 +1,6 @@
 import { Modal } from '@mui/material'
 import { HeaderModalProps } from '../../types/header-types'
-import '../../styles/Header/HeaderModal.scss'
+import '../../styles/header/HeaderModal.scss'
 
 const HeaderModal = ({ open, onClose }: HeaderModalProps) => {
   return (
