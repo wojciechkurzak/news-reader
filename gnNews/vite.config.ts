@@ -1,7 +1,16 @@
 import { defineConfig } from 'vite'
+import type { UserConfig as VitestUserConfigInterface } from 'vitest/config'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
+const vitestConfig: VitestUserConfigInterface = {
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: ['./setupTests.ts'],
+  },
+}
+
 export default defineConfig({
-	plugins: [react()],
+  plugins: [react()],
+  test: vitestConfig.test,
 })
