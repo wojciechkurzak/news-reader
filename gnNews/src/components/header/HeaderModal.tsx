@@ -11,7 +11,7 @@ const HeaderModal = ({ open, onClose }: HeaderModalProps) => {
           Największą trudnością w tym projekcie było prawdopodobnie znalezienie
           odpowiedniego endpointa w News API, żeby w zwracanym JSON-nie były
           wszystkie informacje, a nie tylko częściowo, co widać gdy przejdzie
-          się na zakładki państw ;)
+          się na inne zakładki :)
         </p>
         <p>
           Największą frajdę sprawiło mi tworzenie samego UI, które wciągnęło
