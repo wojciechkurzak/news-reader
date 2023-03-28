@@ -17,8 +17,8 @@ const HeaderModal = ({ open, onClose }: HeaderModalProps) => {
           się na inne zakładki :)
         </p>
         <p>
-          Największą frajdę sprawiło mi tworzenie samego UI, które wciągnęło
-          mnie bradziej niż myślałem
+          Największą frajdę sprawiło mi tworzenie UI oraz dodanie opcji zmiany
+          języka
         </p>
       </div>
     </Modal>
