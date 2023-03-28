@@ -6,6 +6,7 @@ import { changeArticleCount } from '../../redux/features/article-count-slice'
 import { ArticleCountStateType } from '../../types/store-types'
 import { useLocation } from 'react-router-dom'
 import { ArticleType } from '../../types/main-types'
+import LoadingPage from '../misc/LoadingPage'
 import '../../styles/main/MainContent.scss'
 
 const MainContent = () => {
@@ -29,9 +30,7 @@ const MainContent = () => {
       `https://newsapi.org/v2/${querry}&apiKey=${credentials.key}`
     )
     const data = await response.json()
-
     if (!data) return
-
     setArticles(data.articles)
     handleArticleCountChange(data.articles.length)
   }
@@ -41,8 +40,12 @@ const MainContent = () => {
   }, [location])
 
   return (
-    <div className='home-page'>
-      {articles && <MainList articles={articles} />}
+    <div className='main-content'>
+      {articles.length !== 0 ? (
+        <MainList articles={articles} />
+      ) : (
+        <LoadingPage />
+      )}
     </div>
   )
 }

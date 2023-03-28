@@ -1,4 +1,4 @@
-.home-page {
+.main-content {
   min-height: calc(100vh - 120px);
   width: calc(100vw - 240px);
   margin-top: 60px;
@@ -6,8 +6,20 @@
 }
 
 @media screen and (max-width: 768px) {
-  .home-page {
+  .main-content {
     width: 100%;
     margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-content {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-height: 480px) and (orientation: landscape) {
+  .main-content {
+    margin-top: 50px;
   }
 }
