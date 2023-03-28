@@ -1,32 +1,38 @@
 [
   {
     "alpha2": "PL",
-    "name": "Poland",
+    "name_en": "Poland",
+    "name_pl": "Polska",
     "file_url": "//upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg"
   },
   {
     "alpha2": "PT",
-    "name": "Portugal",
+    "name_en": "Portugal",
+    "name_pl": "Portugalia",
     "file_url": "//upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg"
   },
   {
     "alpha2": "RU",
-    "name": "Russian Federation",
+    "name_en": "Russian Federation",
+    "name_pl": "Rosja",
     "file_url": "//upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg"
   },
   {
     "alpha2": "RS",
-    "name": "Serbia",
+    "name_en": "Serbia",
+    "name_pl": "Serbia",
     "file_url": "//upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg"
   },
   {
     "alpha2": "US",
-    "name": "United States of America",
+    "name_en": "United States of America",
+    "name_pl": "Stany Zjednoczone",
     "file_url": "//upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg"
   },
   {
     "alpha2": "DE",
-    "name": "Germany",
+    "name_en": "Germany",
+    "name_pl": "Niemcy",
     "file_url": "//upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg"
   }
 ]

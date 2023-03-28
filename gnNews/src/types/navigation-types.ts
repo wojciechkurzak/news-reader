@@ -8,7 +8,7 @@ export type NavigationListProps = {
 }
 
 export type NavigationListItemProps = {
-  country: string
+  children: JSX.Element
   imageUrl: string
   alpha: string
 }

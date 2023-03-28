@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { MainListItemProps } from '../../types/main-types'
 import { useAppSelector } from '../../redux/hooks'
 import { MdOutlineHideImage } from 'react-icons/md'
+import { FormattedMessage } from 'react-intl'
 import MainModal from './MainModal'
 import '../../styles/main/MainListItem.scss'
 
@@ -38,15 +39,21 @@ const MainListItem = ({ article }: MainListItemProps) => {
           )}
         </div>
         <div className='article-title'>
-          <h2>Title</h2>
+          <h2>
+            <FormattedMessage id='item.title' defaultMessage='Title' />
+          </h2>
           <p>{article.title}</p>
         </div>
         <div className='article-source'>
-          <h2>Source</h2>
+          <h2>
+            <FormattedMessage id='item.source' defaultMessage='Source' />
+          </h2>
           <p>{article.source.name}</p>
         </div>
         <div className='article-date'>
-          <h2>Date</h2>
+          <h2>
+            <FormattedMessage id='item.date' defaultMessage='Date' />
+          </h2>
           <p>{article.publishedAt}</p>
         </div>
       </div>

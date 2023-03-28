@@ -1,7 +1,10 @@
 import { NavigationSearchBarProps } from '../../types/navigation-types'
+import { useAppSelector } from '../../redux/hooks'
 import '../../styles/navigation/NavigationSearchBar.scss'
 
 const NavigationSearchBar = ({ value, setValue }: NavigationSearchBarProps) => {
+  const locale = useAppSelector((state) => state.languageChange.lang)
+
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>): void => {
     setValue(event.target.value)
   }
@@ -12,7 +15,7 @@ const NavigationSearchBar = ({ value, setValue }: NavigationSearchBarProps) => {
         type='text'
         value={value}
         onChange={handleChange}
-        placeholder='Search'
+        placeholder={locale === 'pl-PL' ? 'Szukaj' : 'Search'}
       />
     </div>
   )

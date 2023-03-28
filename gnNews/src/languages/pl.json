@@ -1,0 +1,15 @@
+{
+  "navigation.pl": "Polska",
+  "navigation.pt": "Portugalia",
+  "navigation.ru": "Rosja",
+  "navigation.rs": "Serbia",
+  "navigation.us": "Stany Zjednoczone",
+  "navigation.de": "Niemcy",
+  "item.title": "Tytuł",
+  "item.source": "Źródło",
+  "item.date": "Data",
+  "item.description": "Opis",
+  "item.author": "Autor",
+  "item.sourceurl": "Adres url",
+  "header.about": "O projekcie"
+}

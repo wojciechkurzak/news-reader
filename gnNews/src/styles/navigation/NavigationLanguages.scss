@@ -1,0 +1,21 @@
+.navigation-languages {
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #20232a;
+  padding: 12px;
+  gap: 10px;
+
+  button {
+    border: none;
+    background-color: #282c34;
+    border-radius: 4px;
+    color: #fff;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .active {
+    box-shadow: 0 0 0 2px orange;
+  }
+}

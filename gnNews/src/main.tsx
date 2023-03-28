@@ -5,6 +5,7 @@ import { store } from './redux/store'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import MainContent from './components/main/MainContent'
 import ErrorPage from './components/misc/ErrorPage'
+import LanguageWrapper from './languages/config/LanguageWrapper'
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <Provider store={store}>
-    <RouterProvider router={router} />
+    <LanguageWrapper>
+      <RouterProvider router={router} />
+    </LanguageWrapper>
   </Provider>
 )

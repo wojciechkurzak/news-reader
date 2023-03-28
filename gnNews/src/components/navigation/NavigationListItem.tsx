@@ -5,7 +5,7 @@ import { changeMenuVisible } from '../../redux/features/menu-visible-slice'
 import '../../styles/navigation/NavigationListItem.scss'
 
 const NavigationListItem = ({
-  country,
+  children,
   imageUrl,
   alpha,
 }: NavigationListItemProps) => {
@@ -23,7 +23,7 @@ const NavigationListItem = ({
         className={({ isActive }) => (isActive ? 'active' : undefined)}
       >
         <img src={imageUrl} alt='flag' />
-        <p>{country}</p>
+        <p>{children}</p>
       </NavLink>
     </li>
   )
