@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import credentials from '../../credentials.json'
 import MainList from './MainList'
 import { useAppDispatch } from '../../redux/hooks'
 import { changeArticleCount } from '../../redux/features/article-count-slice'
@@ -27,7 +26,7 @@ const MainContent = () => {
         : 'everything?domains=wsj.com'
 
     const response = await fetch(
-      `https://newsapi.org/v2/${querry}&apiKey=${credentials.key}`
+      `https://newsapi.org/v2/${querry}&apiKey=e568355279284a26b3ad89f2a1ea5a32`
     )
     const data = await response.json()
     if (!data) return
