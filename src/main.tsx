@@ -1,29 +1,11 @@
 import ReactDOM from 'react-dom/client'
-import App from './App'
 import { Provider } from 'react-redux'
 import { store } from './redux/store'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import MainContent from './components/main/MainContent/MainContent'
-import ErrorPage from './components/misc/ErrorPage/ErrorPage'
 import LanguageWrapper from './languages/config/LanguageWrapper'
+import { routesConfig } from './routesConfig'
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <App />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        path: '/',
-        element: <MainContent />,
-      },
-      {
-        path: '/country/:country',
-        element: <MainContent />,
-      },
-    ],
-  },
-])
+const router = createBrowserRouter(routesConfig)
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <Provider store={store}>
