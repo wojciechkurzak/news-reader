@@ -31,7 +31,7 @@ const Header = () => {
     <header>
       <div className='header-title'>
         <HeaderButton icon={<FaBars />} onClick={handleToggleMenu} />
-        <h1 onClick={handleNavigateHome}>gnNews</h1>
+        <h1 onClick={handleNavigateHome}>NewsReader</h1>
       </div>
       <div className='header-buttons'>
         <HeaderButton
