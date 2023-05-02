@@ -1,9 +1,9 @@
-import { NavigationListProps } from '../../types/navigation-types'
-import countries from '../../data/countries.json'
-import NavigationListItem from './NavigationListItem'
+import { NavigationListProps } from '../../../types/navigation-types'
+import countries from '../../../data/countries.json'
+import NavigationListItem from '../NavigationListItem/NavigationListItem'
 import { FormattedMessage } from 'react-intl'
-import '../../styles/navigation/NavigationList.scss'
-import { useAppSelector } from '../../redux/hooks'
+import { useAppSelector } from '../../../redux/hooks'
+import './NavigationList.scss'
 
 const NavigationList = ({ searched }: NavigationListProps) => {
   const locale = useAppSelector((state) => state.languageChange.lang)

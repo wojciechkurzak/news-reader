@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import { MainListItemProps } from '../../types/main-types'
-import { useAppSelector } from '../../redux/hooks'
+import { MainListItemProps } from '../../../types/main-types'
+import { useAppSelector } from '../../../redux/hooks'
 import { MdOutlineHideImage } from 'react-icons/md'
 import { FormattedMessage } from 'react-intl'
-import MainModal from './MainModal'
-import '../../styles/main/MainListItem.scss'
+import MainModal from '../MainModal/MainModal'
+import './MainListItem.scss'
 
 const MainListItem = ({ article }: MainListItemProps) => {
   const [open, setOpen] = useState<boolean>(false)

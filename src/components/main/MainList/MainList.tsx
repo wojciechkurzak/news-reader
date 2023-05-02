@@ -1,7 +1,7 @@
 import React from 'react'
-import { ArticleType, MainListProps } from '../../types/main-types'
-import MainListItem from './MainListItem'
-import '../../styles/main/MainList.scss'
+import { ArticleType, MainListProps } from '../../../types/main-types'
+import MainListItem from '../MainListItem/MainListItem'
+import './MainList.scss'
 
 const MainList = ({ articles }: MainListProps) => {
   return (

@@ -1,6 +1,6 @@
-import { NavigationSearchBarProps } from '../../types/navigation-types'
-import { useAppSelector } from '../../redux/hooks'
-import '../../styles/navigation/NavigationSearchBar.scss'
+import { NavigationSearchBarProps } from '../../../types/navigation-types'
+import { useAppSelector } from '../../../redux/hooks'
+import './NavigationSearchBar.scss'
 
 const NavigationSearchBar = ({ value, setValue }: NavigationSearchBarProps) => {
   const locale = useAppSelector((state) => state.languageChange.lang)

@@ -1,7 +1,7 @@
 import { Modal } from '@mui/material'
-import { MainModalProps } from '../../types/main-types'
+import { MainModalProps } from '../../../types/main-types'
 import { FormattedMessage } from 'react-intl'
-import '../../styles/main/MainModal.scss'
+import './MainModal.scss'
 
 const MainModal = ({
   open,

@@ -1,8 +1,8 @@
-import { NavigationListItemProps } from '../../types/navigation-types'
+import { NavigationListItemProps } from '../../../types/navigation-types'
 import { NavLink } from 'react-router-dom'
-import { useAppDispatch } from '../../redux/hooks'
-import { changeMenuVisible } from '../../redux/features/menu-visible-slice'
-import '../../styles/navigation/NavigationListItem.scss'
+import { useAppDispatch } from '../../../redux/hooks'
+import { changeMenuVisible } from '../../../redux/features/menu-visible-slice'
+import './NavigationListItem.scss'
 
 const NavigationListItem = ({
   children,

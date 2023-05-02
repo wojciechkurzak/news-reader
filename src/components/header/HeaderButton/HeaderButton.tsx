@@ -1,5 +1,5 @@
-import { HeaderButtonProps } from '../../types/header-types'
-import '../../styles/header/HeaderButton.scss'
+import { HeaderButtonProps } from '../../../types/header-types'
+import './HeaderButton.scss'
 
 const HeaderButton = ({ icon, active, onClick }: HeaderButtonProps) => {
   return (

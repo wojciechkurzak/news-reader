@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react'
-import MainList from './MainList'
-import { useAppDispatch } from '../../redux/hooks'
-import { changeArticleCount } from '../../redux/features/article-count-slice'
-import { ArticleCountStateType } from '../../types/store-types'
+import MainList from '../MainList/MainList'
+import { useAppDispatch } from '../../../redux/hooks'
+import { changeArticleCount } from '../../../redux/features/article-count-slice'
+import { ArticleCountStateType } from '../../../types/store-types'
 import { useLocation } from 'react-router-dom'
-import { ArticleType } from '../../types/main-types'
-import LoadingPage from '../misc/LoadingPage'
-import '../../styles/main/MainContent.scss'
+import { ArticleType } from '../../../types/main-types'
+import LoadingPage from '../../misc/LoadingPage/LoadingPage'
+import './MainContent.scss'
 
 const MainContent = () => {
   const [articles, setArticles] = useState<ArticleType[]>([])

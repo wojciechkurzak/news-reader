@@ -1,12 +1,12 @@
-import { useAppDispatch, useAppSelector } from '../../redux/hooks'
-import { changeArticleView } from '../../redux/features/article-view-slice'
-import { ArticleViewStateType } from '../../types/store-types'
+import { useAppDispatch, useAppSelector } from '../../../redux/hooks'
+import { changeArticleView } from '../../../redux/features/article-view-slice'
+import { ArticleViewStateType } from '../../../types/store-types'
 import { FaListUl, FaBars } from 'react-icons/fa'
 import { HiSquares2X2 } from 'react-icons/hi2'
 import { useNavigate } from 'react-router-dom'
-import HeaderButton from './HeaderButton'
-import { changeMenuVisible } from '../../redux/features/menu-visible-slice'
-import '../../styles/header/Header.scss'
+import HeaderButton from '../HeaderButton/HeaderButton'
+import { changeMenuVisible } from '../../../redux/features/menu-visible-slice'
+import './Header.scss'
 
 const Header = () => {
   const navigate = useNavigate()

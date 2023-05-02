@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import NavigationSearchBar from './NavigationSearchBar'
-import NavigationList from './NavigationList'
-import { useAppSelector } from '../../redux/hooks'
-import NavigationLanguages from './NavigationLanguages'
-import '../../styles/navigation/Navigation.scss'
+import NavigationSearchBar from '../NavigationSearchBar/NavigationSearchBar'
+import NavigationList from '../NavigationList/NavigationList'
+import { useAppSelector } from '../../../redux/hooks'
+import NavigationLanguages from '../NavigationLanguages/NavigationLanguages'
+import './Navigation.scss'
 
 const Navigation = () => {
   const [search, setSearch] = useState<string>('')

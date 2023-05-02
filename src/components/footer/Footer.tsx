@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useAppSelector } from '../../redux/hooks'
-import '../../styles/footer/Footer.scss'
+import './Footer.scss'
 
 const Footer = () => {
   const [time, setTime] = useState<string>('')

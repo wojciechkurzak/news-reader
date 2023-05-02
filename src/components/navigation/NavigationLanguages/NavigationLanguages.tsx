@@ -1,6 +1,6 @@
-import { changeLanguage } from '../../redux/features/language-change-slice'
-import { useAppDispatch, useAppSelector } from '../../redux/hooks'
-import '../../styles/navigation/NavigationLanguages.scss'
+import { changeLanguage } from '../../../redux/features/language-change-slice'
+import { useAppDispatch, useAppSelector } from '../../../redux/hooks'
+import './NavigationLanguages.scss'
 
 const NavigationLanguages = () => {
   const dispatch = useAppDispatch()
