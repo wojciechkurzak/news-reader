@@ -8,12 +8,24 @@ header {
   width: 100%;
   height: 60px;
   background-color: #20232a;
-  padding: 0 30px;
+  padding: 0 20px;
   box-shadow: 0 0 6px 0 #000;
   z-index: 2;
 
   h1 {
     cursor: pointer;
+    font-size: 28px;
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    img {
+      width: 32px;
+      height: 100%;
+    }
   }
 }
 
@@ -45,6 +57,13 @@ header {
   header {
     height: 50px;
     padding: 0 12px;
+
+    .title {
+      img {
+        width: 24px;
+        height: 100%;
+      }
+    }
   }
 
   .header-title {

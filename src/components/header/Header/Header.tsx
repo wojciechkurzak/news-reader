@@ -6,6 +6,7 @@ import { HiSquares2X2 } from 'react-icons/hi2'
 import { useNavigate } from 'react-router-dom'
 import HeaderButton from '../HeaderButton/HeaderButton'
 import { changeMenuVisible } from '../../../redux/features/menu-visible-slice'
+import logo from '../../../images/logo.png'
 import './Header.scss'
 
 const Header = () => {
@@ -31,7 +32,12 @@ const Header = () => {
     <header>
       <div className='header-title'>
         <HeaderButton icon={<FaBars />} onClick={handleToggleMenu} />
-        <h1 onClick={handleNavigateHome}>NewsReader</h1>
+        <h1 onClick={handleNavigateHome}>
+          <div className='title'>
+            <img src={logo} alt='logo' />
+            <p>NewsReader</p>
+          </div>
+        </h1>
       </div>
       <div className='header-buttons'>
         <HeaderButton
