@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import LanguageChangeState from '../../interfaces/language-change-interface'
-import { LanguageChangeStateType } from '../../types/store-types'
+import { LanguageChangeStateType } from '../../../gnNews/src/types/store-types'
 
 const initialState: LanguageChangeState = {
   lang: 'en-US',
