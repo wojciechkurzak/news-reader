@@ -39,13 +39,13 @@ const MainContent = () => {
   }, [location])
 
   return (
-    <div className='main-content'>
+    <main className='main-content'>
       {articles.length !== 0 ? (
         <MainList articles={articles} />
       ) : (
         <LoadingPage />
       )}
-    </div>
+    </main>
   )
 }
 

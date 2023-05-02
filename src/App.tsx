@@ -6,14 +6,12 @@ import './App.scss'
 
 const App = () => {
   return (
-    <div className='app-container'>
+    <>
       <Header />
-      <div className='content-container'>
-        <Navigation />
-        <Outlet />
-      </div>
+      <Navigation />
+      <Outlet />
       <Footer />
-    </div>
+    </>
   )
 }
 
