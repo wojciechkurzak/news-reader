@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import ArticleCountState from '../../interfaces/article-count-interface'
-import { ArticleCountStateType } from '../../../gnNews/src/types/store-types'
+import { ArticleCountStateType } from '../../types/store-types'
 
 const initialState: ArticleCountState = {
   value: 0,

@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import MenuVisibleState from '../../interfaces/menu-visible-interface'
-import { MenuVisibleStateType } from '../../../src/types/store-types'
+import { MenuVisibleStateType } from '../../types/store-types'
 
 const initialState: MenuVisibleState = {
   visible: false,

@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import ArticleViewState from '../../interfaces/article-view-interface'
-import { ArticleViewStateType } from '../../../gnNews/src/types/store-types'
+import { ArticleViewStateType } from '../../types/store-types'
 
 const initialState: ArticleViewState = {
   type: 'list',

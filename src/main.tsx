@@ -8,6 +8,7 @@ import { routesConfig } from './routesConfig'
 const router = createHashRouter(routesConfig)
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+  // @ts-ignore
   <Provider store={store}>
     <LanguageWrapper>
       <RouterProvider router={router} />
