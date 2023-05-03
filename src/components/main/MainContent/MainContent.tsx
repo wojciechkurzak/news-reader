@@ -7,9 +7,11 @@ import { useLocation } from 'react-router-dom'
 import { ArticleType } from '../../../types/main-types'
 import LoadingPage from '../../misc/LoadingPage/LoadingPage'
 import './MainContent.scss'
+import NoArticles from '../../misc/NoArticles/NoArticles'
 
 const MainContent = () => {
-  const [articles, setArticles] = useState<ArticleType[]>([])
+  const [articles, setArticles] = useState<ArticleType[] | null>(null)
+  const [loading, setLoading] = useState<boolean>(true)
 
   const location = useLocation()
 
@@ -19,29 +21,38 @@ const MainContent = () => {
     dispatch(changeArticleCount(value))
   }
 
-  const handleGetArticles = async () => {
-    const querry =
-      location.pathname !== '/'
-        ? `top-headlines?country=${location.pathname.slice(9, 11)}`
-        : 'everything?domains=wsj.com'
+  const handleGetArticles = () => {
+    const fileLocation =
+      location.pathname === '/'
+        ? `../../../data/articles/home.json`
+        : `../../../data/articles/${location.pathname.slice(9, 11)}.json`
 
-    const response = await fetch(
-      `https://newsapi.org/v2/${querry}&apiKey=e568355279284a26b3ad89f2a1ea5a32`
-    )
-    const data = await response.json()
-    if (!data) return
-    setArticles(data.articles)
-    handleArticleCountChange(data.articles.length)
+    import(fileLocation)
+      .then((data) => {
+        setArticles(data.articles)
+        handleArticleCountChange(data.articles.length)
+        setLoading(false)
+      })
+      .catch(() => {
+        setArticles(null)
+        handleArticleCountChange(0)
+        setLoading(false)
+      })
   }
 
   useEffect(() => {
+    setLoading(true)
     handleGetArticles()
   }, [location])
 
   return (
     <main className='main-content'>
-      {articles.length !== 0 ? (
-        <MainList articles={articles} />
+      {!loading ? (
+        articles ? (
+          <MainList articles={articles} />
+        ) : (
+          <NoArticles />
+        )
       ) : (
         <LoadingPage />
       )}

@@ -10,6 +10,7 @@ const MainListItem = ({ article }: MainListItemProps) => {
   const [open, setOpen] = useState<boolean>(false)
 
   const articleView = useAppSelector((state) => state.articleView.type)
+  const articleLang = useAppSelector((state) => state.languageChange.lang)
 
   const handleOpen = (): void => {
     setOpen(true)
@@ -42,13 +43,13 @@ const MainListItem = ({ article }: MainListItemProps) => {
           <h2>
             <FormattedMessage id='item.title' defaultMessage='Title' />
           </h2>
-          <p>{article.title}</p>
+          <p>{articleLang === 'en-US' ? article.title_en : article.title_pl}</p>
         </div>
         <div className='article-source'>
           <h2>
             <FormattedMessage id='item.source' defaultMessage='Source' />
           </h2>
-          <p>{article.source.name}</p>
+          <p>{article.source}</p>
         </div>
         <div className='article-date'>
           <h2>
@@ -60,9 +61,13 @@ const MainListItem = ({ article }: MainListItemProps) => {
       <MainModal
         open={open}
         onClose={handleClose}
-        description={article.description}
+        description={
+          articleLang === 'en-US'
+            ? article.description_en
+            : article.description_pl
+        }
         author={article.author}
-        sourceUrl={article.url}
+        sourceUrl={article.urlToArticle}
       />
     </>
   )

@@ -6,24 +6,6 @@
     "file_url": "//upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg"
   },
   {
-    "alpha2": "PT",
-    "name_en": "Portugal",
-    "name_pl": "Portugalia",
-    "file_url": "//upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg"
-  },
-  {
-    "alpha2": "RU",
-    "name_en": "Russian Federation",
-    "name_pl": "Rosja",
-    "file_url": "//upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg"
-  },
-  {
-    "alpha2": "RS",
-    "name_en": "Serbia",
-    "name_pl": "Serbia",
-    "file_url": "//upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg"
-  },
-  {
     "alpha2": "US",
     "name_en": "United States of America",
     "name_pl": "Stany Zjednoczone",

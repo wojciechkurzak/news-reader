@@ -1,0 +1,92 @@
+{
+  "articles": [
+    {
+      "author": "Soma Biswas",
+      "description_en": "The retailer borrowed $54 million on Friday to make payroll, showing its finances were unusually dire even for a company facing chapter 11",
+      "description_pl": "Sprzedawca pożyczył w piątek 11 milionów dolarów, aby zarobić na płacach, pokazując, że jego finanse były niezwykle tragiczne nawet dla firmy, która stoi przed rozdziałem.",
+      "publishedAt": "2023-04-24",
+      "source": "The Wall Street Journal",
+      "title_en": "Bed Bath & Beyond Took Out Emergency Loan on Eve of Bankruptcy",
+      "title_pl": "Bed Bath & Beyond wykupił awaryjną pożyczkę w przededniu bankructwa",
+      "urlToArticle": "https://www.wsj.com/articles/bed-bath-beyond-took-out-emergency-loan-on-eve-of-bankruptcy-6b406773",
+      "urlToImage": "https://images.wsj.net/im-769318/social"
+    },
+    {
+      "author": "Katherine Clarke",
+      "description_en": "The estate, which is hitting the auction block, has served as the center of Houston’s social scene since Becca Cason Thrash threw her first party there in 1997",
+      "description_pl": "Osiedle, które uderza w blok aukcyjny, służyło jako centrum sceny społecznej Houston, odkąd Becca Cason Thrash zorganizowała tam swoją pierwszą imprezę w 1997 roku",
+      "publishedAt": "2023-04-19",
+      "source": "The Wall Street Journal",
+      "title_en": "Inside a Texas Socialite’s Party Palace, Where She Entertained Tom Brady and George H.W. Bush",
+      "title_pl": "Wewnątrz Pałacu Partii Texas Socialite, gdzie zabawiała Toma Brady'ego i George'a H.W. Tuleja",
+      "urlToArticle": "https://www.wsj.com/articles/river-oaks-houston-home-auction-bec8323b",
+      "urlToImage": "https://images.wsj.net/im-765624/social"
+    },
+    {
+      "author": "Jodi Xu Klein",
+      "description_en": "Shares in Scilex, Sorrento’s biggest asset, have soared in recent weeks as the parent company charts an exit from chapter 11",
+      "description_pl": "Udziały w Scilex, największym aktywie Sorrento, wzrosły w ostatnich tygodniach, gdy spółka dominująca wykreśla wyjście z rozdziału 11",
+      "publishedAt": "2023-04-13",
+      "source": "The Wall Street Journal",
+      "title_en": "Bankrupt Drugmaker Sorrento’s Scilex Unit Explores Stock Sale",
+      "title_pl": "Zbankrutowany producent leków Sorrento Scilex Unit bada sprzedaż akcji",
+      "urlToArticle": "https://www.wsj.com/articles/bankrupt-drugmaker-sorrentos-scilex-unit-explores-stock-sale-b339d1c",
+      "urlToImage": "https://images.wsj.net/im-762939/social"
+    },
+    {
+      "author": "Alexander Gladstone",
+      "description_en": "The distressed home-goods chain has been flooding the market with new shares that it says will likely be worthless if it files for bankruptcy",
+      "description_pl": "Zagrożony łańcuch dóbr domowych zalewa rynek nowymi akcjami, które według niego prawdopodobnie będą bezwartościowe, jeśli złoży wniosek o bankructwo",
+      "publishedAt": "2023-04-11",
+      "source": "The Wall Street Journal",
+      "title_en": "Bed Bath & Beyond’s Stock-Sale Deluge Lures Retail Investors",
+      "title_pl": "Wyprzedaż akcji firmy Bed Bath & Beyond Potop przyciąga inwestorów detalicznych",
+      "urlToArticle": "https://www.wsj.com/articles/bed-bath-beyonds-stock-sale-deluge-lures-retail-investors-bb9db1c5",
+      "urlToImage": "https://images.wsj.net/im-761691/social"
+    },
+    {
+      "author": "wsj",
+      "description_en": "Guo Wengui has pleaded not guilty to accusations that he took money from thousands to fund a lavish lifestyle",
+      "description_pl": "Guo Wengui nie przyznał się do zarzutów, że wziął pieniądze od tysięcy na sfinansowanie wystawnego stylu życia",
+      "publishedAt": "2023-04-11",
+      "source": "The Wall Street Journal",
+      "title_en": "Followers Describe Allure of Chinese Businessman Charged With $1 Billion Fraud",
+      "title_pl": "Zwolennicy opisują urok chińskiego biznesmena oskarżonego o miliard dolarów oszustwa",
+      "urlToArticle": "https://www.wsj.com/articles/followers-describe-allure-of-chinese-businessman-charged-with-fraud-dcef4f0e",
+      "urlToImage": "https://images.wsj.net/im-760389/social"
+    },
+    {
+      "author": "Yuliya Chernova",
+      "description_en": "New entrepreneurs are on the hunt for venture capital as investors are pulling back",
+      "description_pl": "Nowi przedsiębiorcy szukają kapitału podwyższonego ryzyka, ponieważ inwestorzy wycofują się",
+      "publishedAt": "2023-04-10",
+      "source": "The Wall Street Journal",
+      "title_en": "Laid-Off Tech Workers Launch ‘Revenge Startups’ Just as Money Dries Up",
+      "title_pl": "Laid-Off Tech Workers uruchamiają „Revenge Startups”, gdy pieniądze wysychają",
+      "urlToArticle": "https://www.wsj.com/articles/laid-off-tech-workers-launch-revenge-startups-but-money-is-drying-up-6075941",
+      "urlToImage": "https://images.wsj.net/im-759838/social"
+    },
+    {
+      "author": "wsj",
+      "description_en": "Seniors are finding that Alabama’s Baldwin County is not only more affordable, but has the same weather and same beaches that make its neighbor a popular retirement destination",
+      "description_pl": "Seniorzy odkrywają, że hrabstwo Baldwin w Alabamie jest nie tylko bardziej przystępne cenowo, ale ma tę samą pogodę i te same plaże, które sprawiają, że jego sąsiad jest popularnym miejscem na emeryturę",
+      "publishedAt": "2023-04-27",
+      "source": "The Wall Street Journal",
+      "title_en": "Priced Out of Florida, More Retirees Trying Alabama",
+      "title_pl": "Wyjeżdżając z Florydy, więcej emerytów próbuje Alabama",
+      "urlToArticle": "https://www.wsj.com/articles/retiring-in-alabama-b59c55b3",
+      "urlToImage": "https://images.wsj.net/im-769502/social"
+    },
+    {
+      "author": "wsj",
+      "description_en": "Longevity seekers are captivated by a transplant drug called rapamycin, but many doctors are wary",
+      "description_pl": "Osoby poszukujące długowieczności są urzeczone przez lek transplantacyjny o nazwie rapamycyna, ale wielu lekarzy jest ostrożnych",
+      "publishedAt": "2023-05-01T18:00:06Z",
+      "source": "The Wall Street Journal",
+      "title_en": "Can Kidney Transplant Drug Keep You From Aging?",
+      "title_pl": "Czy lek na przeszczep nerki może uchronić Cię przed starzeniem się?",
+      "urlToArticle": "https://www.wsj.com/articles/rapamycin-anti-aging-drug-longevity-a27575f4",
+      "urlToImage": "https://images.wsj.net/im-772240/social"
+    }
+  ]
+}

@@ -1,14 +1,12 @@
 export type ArticleType = {
   author: string
-  content: string
-  description: string
+  description_en: string
+  description_pl: string
   publishedAt: string
-  source: {
-    id: string
-    name: string
-  }
-  title: string
-  url: string
+  source: string
+  title_en: string
+  title_pl: string
+  urlToArticle: string
   urlToImage: string
 }
 
