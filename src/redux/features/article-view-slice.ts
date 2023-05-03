@@ -3,7 +3,7 @@ import ArticleViewState from '../../interfaces/article-view-interface'
 import { ArticleViewStateType } from '../../types/store-types'
 
 const initialState: ArticleViewState = {
-  type: 'list',
+  type: 'grid',
 }
 
 const articleViewSlice = createSlice({
