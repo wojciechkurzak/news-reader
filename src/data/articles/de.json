@@ -1,0 +1,92 @@
+{
+  "articles": [
+    {
+      "author": "Golem.de",
+      "description_en": "With the NUC Elements, Intel offers small computers that can be installed in desktop and laptop cases. We explain how this works and what advantages medium-sized companies in particular have from it.",
+      "description_pl": "Dzięki elementom NUC firma Intel oferuje małe komputery, które można zainstalować w obudowach komputerów stacjonarnych i laptopów. Wyjaśniamy, jak to działa i jakie korzyści mają z tego w szczególności średnie firmy.",
+      "publishedAt": "2023-05-03",
+      "source": "Google News",
+      "title_en": "Intel Nuc Elements: Modular PCs can make life easier for admins",
+      "title_pl": "Intel Nuc Elements: Modułowe komputery PC ułatwiają życie administratorom",
+      "urlToArticle": "https://news.google.com/rss/articles/CBMic2h0dHBzOi8vd3d3LmdvbGVtLmRlL25ld3MvaW50ZWwtbnVjLWVsZW1lbnRzLW1vZHVsYXJlLXBjcy1rb2VubmVuLWFkbWlucy1kYXMtbGViZW4tbGVpY2h0ZXItbWFjaGVuLTIzMDUtMTczODgxLmh0bWzSAQA?oc=5",
+      "urlToImage": "https://www.golem.de/2305/173881-379064-379061.jpg"
+    },
+    {
+      "author": "tagesschau.de",
+      "description_en": "Several people were killed and injured at a school in the Serbian capital Belgrade, including students. According to media reports, a seventh-grader with his father’s gun opened fire.",
+      "description_pl": "Kilka osób zostało zabitych i rannych w szkole w Belgradzie, w tym studentów. Według doniesień mediów, siódmy klasista z pistoletem ojca otworzył ogień.",
+      "publishedAt": "2023-05-03",
+      "source": "Google News",
+      "title_en": "At least eight dead after shots in Belgrade school",
+      "title_pl": "Co najmniej osiem zabitych po strzałach w szkole w Belgradzie",
+      "urlToArticle": "https://news.google.com/rss/articles/CBMiSmh0dHBzOi8vd3d3LnRhZ2Vzc2NoYXUuZGUvYXVzbGFuZC9ldXJvcGEvc2VyYmllbi1iZWxncmFkLWFuc2NobGFnLTEwMC5odG1s0gEA?oc=5",
+      "urlToImage": "https://images.tagesschau.de/image/15954b07-c2c2-4b28-a108-5144a30f54ea/AAABh-D-G3c/AAABg8tMRzY/20x9-1280/belgrad-110.webp"
+    },
+    {
+      "author": "m.news.de",
+      "description_en": "A rare fungal pathogen is spreading in Michigan, and hundreds of people have already contracted the disease. One person died as a result, and the authorities are still working on how the fungus could spread.",
+      "description_pl": "Rzadki patogen grzybiczy rozprzestrzenia się w Michigan, a setki ludzi już zaraziło się chorobą. Jedna osoba zmarła w wyniku tego, a władze nadal pracują nad tym, jak grzyb może się rozprzestrzeniać.",
+      "publishedAt": "2023-05-03",
+      "source": "Google News",
+      "title_en": "Blastomycosis: A person died! Deadly fungal infection on the rise?",
+      "title_pl": "Blastomykoza: Osoba zmarła! Śmiertelna infekcja grzybicza rośnie?",
+      "urlToArticle": "https://news.google.com/rss/articles/CBMiswFodHRwczovL3d3dy5uZXdzLmRlL2dlc3VuZGhlaXQvODU2ODgyMzIwL2JsYXN0b215a29zZS1pbi1taWNoaWdhbi1hdWYtZGVtLXZvcm1hcnNjaC0xLXRvdGVyLW5hY2gtcGlsemluZmVrdGlvbi1hZXJ6dGUtd2FybmVuLXZvci10b2VkbGljaGVtLWhlZmVwaWx6LXdvbW9lZ2xpY2gtYXVzLXBhcGllcmZhYnJpay8xL9IBtwFodHRwczovL3d3dy5uZXdzLmRlL2FtcC9nZXN1bmRoZWl0Lzg1Njg4MjMyMC9ibGFzdG9teWtvc2UtaW4tbWljaGlnYW4tYXVmLWRlbS12b3JtYXJzY2gtMS10b3Rlci1uYWNoLXBpbHppbmZla3Rpb24tYWVyenRlLXdhcm5lbi12b3ItdG9lZGxpY2hlbS1oZWZlcGlsei13b21vZWdsaWNoLWF1cy1wYXBpZXJmYWJyaWsvMS8?oc=5",
+      "urlToImage": "https://media.news.de/images/857820849/images/4b/a7/0134864d275d02dda6241a168e9d/nopic/no_pic/1200/675/1/1/-/4/1024/576/-/-/in-michigan-kam-es-zu-einem-blastomykose-ausbruch_857820849_1200x675_ae0ebfc628d3c5ae72a8b1c57b6ec459.jpg"
+    },
+    {
+      "author": "CHIP Praxistipps",
+      "description_en": "Nectarines are very healthy, the fruit is rich in healthy ingredients and is perfect for losing weight.",
+      "description_pl": "Nektaryny są bardzo zdrowe, owoc jest bogaty w zdrowe składniki i jest idealny do utraty wagi.",
+      "publishedAt": "2023-05-03",
+      "source": "Google News",
+      "title_en": "Nectarines are so healthy: information and nutrients",
+      "title_pl": "Nektaryny są tak zdrowe: Informacja i składniki odżywcze",
+      "urlToArticle": "https://news.google.com/rss/articles/CBMiU2h0dHBzOi8vcHJheGlzdGlwcHMuZm9jdXMuZGUvc28tZ2VzdW5kLXNpbmQtbmVrdGFyaW5lbi1pbmZvcy11bmQtbmFlaHJzdG9mZmVfMTYwNTE30gFeaHR0cHM6Ly9wcmF4aXN0aXBwcy5mb2N1cy5kZS9zby1nZXN1bmQtc2luZC1uZWt0YXJpbmVuLWluZm9zLXVuZC1uYWVocnN0b2ZmZV8xNjA1MTc_bGF5b3V0PWFtcA?oc=5",
+      "urlToImage": "https://im.contentlounge.net/styles/manual_crop/s3/2021-07/52801185.jpg?im=Resize%3D%281200%2C675%29%2Caspect%3Dfit%2CAspectCrop%2Csize%3D%281200%2C675%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=d4275e6bfaee665b618ea28a2e968295579c27031999e3229d2500d8b826f4dc"
+    },
+    {
+      "author": "Mittelbayerische Zeitung",
+      "description_en": "Lisa Feigl was always an active, lively person, what she did? It just gushes out of Feigl. Travelling, celebrating, meeting friends - she was even a beer princess from the Upper Palatinate, but in January 2022 the civil engineer fell ill with Corona. Since then, the 29-year-old has been struggling with the consequences of Long-Covid.",
+      "description_pl": "Lisa Feigl była zawsze aktywną, żywą osobą, co robiła? To po prostu ucieka z Feigl. Podróżując, świętując, spotykając się z przyjaciółmi - była nawet księżniczką piwa z górnego Palatynatu, ale w styczniu 2022 roku inżynier budownictwa zachorował na koronę. Od tego czasu 29-latek boryka się z konsekwencjami Long-Covid.",
+      "publishedAt": "2023-05-03",
+      "source": "Google News",
+      "title_en": "Long-Covid: Affected (29) starts self-help group in Schwandorf",
+      "title_pl": "Long-Covid: Affected (29) rozpoczyna samopomocową grupę w Schwandorfie",
+      "urlToArticle": "https://news.google.com/rss/articles/CBMilAFodHRwczovL3d3dy5taXR0ZWxiYXllcmlzY2hlLmRlL3JlZ2lvbi9zY2h3YW5kb3JmLW5hY2hyaWNodGVuL2xvbmctY292aWQtYmV0cm9mZmVuZS0yOS1zdGFydGV0LXNlbGJzdGhpbGZlZ3J1cHBlLWluLXNjaHdhbmRvcmYtMjE0MTYtYXJ0MjIxNTg1NC5odG1s0gEA?oc=5",
+      "urlToImage": null
+    },
+    {
+      "author": "ingame.de",
+      "description_en": "Redfall should be the new hit for Microsoft’s exclusive AAA games. But the ratings are unanimous, the vampire shooter fails on Metacritic.",
+      "description_pl": "Redfall powinien być nowym hitem ekskluzywnych gier AAA Microsoftu. Ale oceny są jednogłośne, wampir strzelec zawiedzie na Metacritic.",
+      "publishedAt": "2023-05-03",
+      "source": "Google News",
+      "title_en": "Redfall tests: ratings and reviews tear apart Microsoft's AAA game",
+      "title_pl": "Testy Redfall: oceny i recenzje rozdzierają grę AAA Microsoftu",
+      "urlToArticle": "https://news.google.com/rss/articles/CBMihQFodHRwczovL3d3dy5pbmdhbWUuZGUvbmV3cy9yZWRmYWxsLXdlcnR1bmdzc3BpZWwtdGVzdHMteGJveC1hcmNhbmUtc2hvb3Rlci12YW1waXItaGFtYnVyZy1yZXZpZXdzLW1ldGFjcml0aWMtbWljcm9zb2Z0cy05MjI0ODkyNy5odG1s0gEA?oc=5",
+      "urlToImage": null
+    },
+    {
+      "author": "finanzen.net",
+      "description_en": "In the first quarter, Deutsche Post recorded a decline in revenues and earnings, but exceeded consensus expectations.",
+      "description_pl": "W pierwszym kwartale Deutsche Post odnotował spadek przychodów i zysków, ale przekroczył oczekiwania konsensusu.",
+      "publishedAt": "2023-05-03",
+      "source": "Google News",
+      "title_en": "Deutsche Post shares up: Deutsche Post drops significantly in profits",
+      "title_pl": "Akcje Deutsche Post w górę: Deutsche Post ze znacznym spadkiem zysków",
+      "urlToArticle": "https://news.google.com/rss/articles/CBMikAFodHRwczovL3d3dy5maW5hbnplbi5uZXQvbmFjaHJpY2h0L2FrdGllbi9wcm9nbm9zZW4tYmVzdGFldGlndC1kZXV0c2NoZS1wb3N0LWFrdGllLWltLXBsdXMtZGV1dHNjaGUtcG9zdC1taXQtZGV1dGxpY2hlbS1nZXdpbm5ydWVja2dhbmctMTI0MTk5MDfSAYMBaHR0cHM6Ly93d3cuZmluYW56ZW4ubmV0L2FtcC9wcm9nbm9zZW4tYmVzdGFldGlndC1kZXV0c2NoZS1wb3N0LWFrdGllLWltLXBsdXMtZGV1dHNjaGUtcG9zdC1taXQtZGV1dGxpY2hlbS1nZXdpbm5ydWVja2dhbmctMTI0MTk5MDc?oc=5",
+      "urlToImage": "https://images.finanzen.net/mediacenter/unsortiert/deutsche_post_by_org_660.jpg"
+    },
+    {
+      "author": "DER SPIEGEL",
+      "description_en": "The former Minister-President of North Rhine-Westphalia is highly regarded in the Élysée. Armin Laschet now receives an order donated by Napoleon, including a manageable salary.",
+      "description_pl": "Były minister-prezydent Nadrenii Północnej-Westfalii jest wysoko ceniony w Élysée. Armin Laschet otrzymuje teraz zamówienie podarowane przez Napoleona, w tym łatwe do zarządzania wynagrodzenie.",
+      "publishedAt": "2023-05-03T09:33:57Z",
+      "source": "Google News",
+      "title_en": "Commander of the French Legion of Honour: Laschet receives the highest French award",
+      "title_pl": "Dowódca francuskiej Legii Honorowej: Laschet odbiera najwyższe francuskie odznaczenie",
+      "urlToArticle": "https://news.google.com/rss/articles/CBMiiAFodHRwczovL3d3dy5zcGllZ2VsLmRlL3BvbGl0aWsvZGV1dHNjaGxhbmQvZnJhbmtyZWljaC1hcm1pbi1sYXNjaGV0LWVyaGFlbHQtaG9lY2hzdGUtYXVzemVpY2hudW5nLWEtNWFjMDhhNDctZmE0My00NjY2LTg0YzUtNDRkOGI4YjI3MTMw0gEA?oc=5",
+      "urlToImage": "https://cdn.prod.www.spiegel.de/images/244e4bcb-b849-4e4c-94af-9a5f8971de09_w948_r1.778_fpx52_fpy62_fd83.33.webp"
+    }
+  ]
+}

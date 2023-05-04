@@ -6,8 +6,8 @@ import { ArticleCountStateType } from '../../../types/store-types'
 import { useLocation } from 'react-router-dom'
 import { ArticleType } from '../../../types/main-types'
 import LoadingPage from '../../misc/LoadingPage/LoadingPage'
-import './MainContent.scss'
 import NoArticles from '../../misc/NoArticles/NoArticles'
+import './MainContent.scss'
 
 const MainContent = () => {
   const [articles, setArticles] = useState<ArticleType[] | null>(null)
