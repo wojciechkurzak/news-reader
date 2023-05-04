@@ -1,0 +1,92 @@
+{
+  "articles": [
+    {
+      "author": "Holly Ellyatt",
+      "description_en": "The White House estimated that Russia's military suffered 100,000 casualties in the last five months of fighting in the area around Bakhmut and other areas.",
+      "description_pl": "Biały Dom oszacował, że rosyjskie wojsko poniosło 100,000 ofiar w ciągu ostatnich pięciu miesięcy walk w rejonie Bachmutu i innych obszarów.",
+      "publishedAt": "2023-05-02",
+      "source": "CNBC",
+      "title_en": "Ukraine war live updates: Putin warned of arrest if he attends summit; Russia had 100,000 casualties in 5 months, U.S. says - CNBC",
+      "title_pl": "Putin ostrzegł przed aresztowaniem, jeśli weźmie udział w szczycie; Rosja poniosła 100,000 ofiar w ciągu 5 miesięcy - podaje CNBC",
+      "urlToArticle": "https://www.cnbc.com/2023/05/02/ukraine-war-live-updates-latest-news-on-russia-and-the-war-in-ukraine.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107232783-16826934122023-04-27t195644z_1936741780_rc27n0atnvbg_rtrmadp_0_ukraine-crisis-putin-drones.jpeg?v=1683013056&w=1920&h=1080"
+    },
+    {
+      "author": "Silvia Amaro",
+      "description_en": "Inflation in the euro zone rose in April, according to preliminary data released Tuesday, remaining significantly above levels targeted by the European Central Bank.",
+      "description_pl": "Inflacja w strefie euro wzrosła w kwietniu, według wstępnych danych opublikowanych we wtorek, pozostając znacznie powyżej poziomów docelowych przez Europejski Bank Centralny.",
+      "publishedAt": "2023-05-02",
+      "source": "CNBC",
+      "title_en": "Euro zone core inflation slows unexpectedly in April, blurring the picture for rate hikes - CNBC",
+      "title_pl": "Inflacja bazowa strefy euro niespodziewanie spowalnia w kwietniu, zacierając obraz podwyżek stóp procentowych - CNBC",
+      "urlToArticle": "https://www.cnbc.com/2023/05/02/inflation-euro-zone-april-2023-ahead-of-ecb-rate-decision.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107233785-1683010958349-gettyimages-1387456579-europapress_4338499_detail_fish_seafood_stall_at_central_mar.jpeg?v=1683018473&w=1920&h=1080"
+    },
+    {
+      "author": "Katherine Dillinger",
+      "description_en": "US Surgeon General Dr. Vivek Murthy released an advisory Tuesday addressing the 'epidemic of loneliness and isolation' affecting the country and laying out a framework for a 'National Strategy to Advance Social Connection.'",
+      "description_pl": "Amerykański chirurg dr Vivek Murthy opublikował we wtorek poradnik dotyczący „epidemii samotności i izolacji” dotykającej kraj i określający ramy dla 'narodowej strategii na rzecz rozwoju więzi społecznych.'",
+      "publishedAt": "2023-05-02",
+      "source": "CNN",
+      "title_en": "Surgeon general lays out framework to tackle loneliness and 'mend the social fabric of our nation' - CNN",
+      "title_pl": "Chirurg generalny przedstawia ramy do walki z samotnością i 'naprawienia tkanki społecznej naszego narodu' - CNN",
+      "urlToArticle": "https://www.cnn.com/2023/05/02/health/murthy-loneliness-isolation/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230501184419-vivek-murthy-file.jpg?c=16x9&q=w_800,c_fill"
+    },
+    {
+      "author": "John Alonzo",
+      "description_en": "Thousands of film and television writers will go on strike starting Tuesday, throwing Hollywood into turmoil as the entertainment business grapples with seismic changes triggered by the global streaming TV boom.",
+      "description_pl": "Tysiące pisarzy filmowych i telewizyjnych rozpocznie strajk od wtorku, wpędzając Hollywood w zamieszanie, gdy biznes rozrywkowy zmaga się z sejsmicznymi zmianami wywołanymi przez globalny boom telewizji strumieniowej.",
+      "publishedAt": "2023-05-02",
+      "source": "Reuters",
+      "title_en": "Hollywood writers strike over pay in streaming TV 'gig economy' - Reuters",
+      "title_pl": "Hollywoodzkie pisarze strajkują nad wynagrodzeniem w streamingu telewizyjnym 'Gig economy' - Reuters",
+      "urlToArticle": "https://www.reuters.com/lifestyle/hollywood-writers-studios-stage-last-minute-talks-strike-deadline-looms-2023-05-01/",
+      "urlToImage": "https://www.reuters.com/resizer/-WEUJPOLt8HxTJBHUy0OmELmVHw=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/V5CG7OQSGNNMPOFQWRT3KSLT6U.jpg"
+    },
+    {
+      "author": "Rick Murphy",
+      "description_en": "The bodies of seven people, including two missing teens and a convicted sex offender, were found Monday afternoon on a property near the small Oklahoma city of Henryetta, the county sheriff said.",
+      "description_pl": "Ciała siedmiu osób, w tym dwóch zaginionych nastolatków i skazanego przestępcę seksualnego, znaleziono w poniedziałek po południu na nieruchomości w pobliżu małego miasta w Oklahomie, w hrabstwie Henryetta.",
+      "publishedAt": "2023-05-02",
+      "source": "Reuters",
+      "title_en": "Seven bodies, including two missing teens, found in Oklahoma town - Reuters",
+      "title_pl": "Siedem ciał, w tym dwie zaginione nastolatki, znaleziono w mieście Oklahoma - Reuters",
+      "urlToArticle": "https://www.reuters.com/world/us/seven-bodies-including-two-missing-teens-found-oklahoma-town-2023-05-01/",
+      "urlToImage": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.webp?d=138"
+    },
+    {
+      "author": "Alex Miller",
+      "description_en": "New research finds intriguing brain wave patterns in comatose patients who died following cardiac arrest. Reports of near-death experiences—with tales of white light, visits from departed loved ones, hearing voices, among other attributes—capture our imagination.",
+      "description_pl": "Nowe badania odkrywają intrygujące wzorce fal mózgowych u pacjentów ze śpiączką, którzy zmarli po zatrzymaniu krążenia. Doniesienia o doświadczeniach bliskich śmierci – z opowieściami o białym świetle, wizytami zmarłych bliskich, słyszeniem głosów, wśród innych atrybutów – uchwyciły naszą wyobraźnię.",
+      "publishedAt": "2023-05-02",
+      "source": "SciTechDaily",
+      "title_en": "The Last Spark: Consciousness in the Dying Brain Unveiled - SciTechDaily",
+      "title_pl": "Ostatnia iskra: Świadomość w umierającym mózgu odsłonięta - SciTechDaily",
+      "urlToArticle": "https://scitechdaily.com/?p=273522",
+      "urlToImage": "https://scitechdaily.com/images/Spirituality-and-Cosmic-Energy.jpg"
+    },
+    {
+      "author": "Gabrielle Chung",
+      "description_en": "Met Gala 2023 proved to be a meeting of exes when Pete Davidson and Kim Kardashian crossed paths inside the Metropolitan Museum of Art on May 1. See a photo of the run-in.",
+      "description_pl": "Met Gala 2023 okazała się spotkaniem byłych gości, kiedy Pete Davidson i Kim Kardashian przekroczyli ścieżki wewnątrz Metropolitan Museum of art. Zobacz zdjęcie z run-in.",
+      "publishedAt": "2023-05-02",
+      "source": "Eonline.com",
+      "title_en": "Kim Kardashian and Ex Pete Davidson Reunite at 2023 Met Gala 8 Months After Breakup",
+      "title_pl": "Kim Kardashian i były Pete Davidson ponownie spotykają się na 2023 Met Gala 8 miesięcy po rozstaniu",
+      "urlToArticle": "https://www.eonline.com/news/1371234/kim-kardashian-and-ex-pete-davidson-reunite-at-2023-met-gala-5-months-after-breakup",
+      "urlToImage": "https://akns-images.eonline.com/eol_images/Entire_Site/202341/rs_1200x1200-230501200939-1200-usher-pete-kim-kardashian-GettyImages-1486958807.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top"
+    },
+    {
+      "author": "Andrew Jeong",
+      "description_en": "More than 20,000 Russian troops have been killed and 80,000 have been wounded in Ukraine since December, the U.S. National Security Council said. The numbers are based on intelligence that we were...",
+      "description_pl": "Od grudnia w USA zginęło ponad 20,000 rosyjskich żołnierzy, a 80,000 zostało rannych na Ukrainie - Powiedziała Rada Bezpieczeństwa Narodowego. Liczby te są oparte na inteligencji, że byliśmy...",
+      "publishedAt": "2023-05-02",
+      "source": "The Washington Post",
+      "title_en": "Meta: Russia-Ukraine war news: 100,000 Russian casualties since Dec., U.S. says - The Washington Post",
+      "title_pl": "Meta: Wiadomości wojenne Rosja-Ukraina: 100,000 rosyjskich ofiar od grudnia, USA mówi - The Washington Post",
+      "urlToArticle": "https://www.washingtonpost.com/world/2023/05/02/russia-ukraine-war-news/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CIAGNCTBPCNESXCFAPDGS3Y63E.JPG&w=1440"
+    }
+  ]
+}
